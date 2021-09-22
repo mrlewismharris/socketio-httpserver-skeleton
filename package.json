@@ -1,0 +1,15 @@
+{
+  "name": "socketio-httpserver-skeleton",
+  "version": "1.0.0",
+  "description": "Socket.io and vanilla Node.js HTTP server skeleton using CORS same-machine policy (should be changed for everything OTHER than local testing, read more at https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS).",
+  "main": "app.js",
+  "dependencies": {
+    "socket.io": "^4.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mrlewismharris",
+  "license": "ISC"
+}

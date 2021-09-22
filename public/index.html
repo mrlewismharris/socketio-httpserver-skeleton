@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Change Skeleton Title</title>
+    <script src="https://cdn.socket.io/4.2.0/socket.io.min.js"></script>
+  </head>
+  <body>
+
+    <!-- html body elements here! -->
+
+    <script>
+      const socket = io("http://localhost:3001")
+      socket.on("connected", data => {
+        console.log(`Successfully connected to server - ping recieved at ${data.timestamp}`)
+      })
+    </script>
+  </body>
+</html>
